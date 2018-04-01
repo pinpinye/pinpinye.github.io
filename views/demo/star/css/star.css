@@ -1,0 +1,127 @@
+html {
+        font-size: 20px;
+        quotes: "“" "”";
+        font-family: Helvetica, Microsoft yahei, Arial;
+        -webkit-text-size-adjust: none;
+}
+
+body {
+        background-color: #0A0A0A;
+}
+
+.wrapper {
+        text-align: center;
+        width: 100%;
+        height: 100%;
+        background-color: #0A0A0A;
+        position: absolute;
+        top: 0;
+}
+
+
+.big-tittle {
+        color: #15D9AA;
+        font-size: 40px;
+        margin-top: 30px;
+        /*color: #FFFFFF;*/
+}
+
+.b1-tittle {
+        color: #FFF24A;
+}
+
+
+.b2-tittle {
+		margin-top: 10px;
+        color:  #15D9AA;
+        font-size: 16px;
+}
+
+.tittle {
+        margin-top: 100px;
+        margin-bottom: 30px;
+        color: #FFF24A;
+}
+
+.icon80 {
+        width: 20px;
+        height: 20px;
+}
+
+#container1,#container2,#container3,#container4,#container5,#container6  {
+        width: 25%;
+        /* height: 600px; */
+        margin: 0 auto;
+        min-width: 400px;
+        max-width: 400px;
+        /* float: left; */
+}
+.tittle80 {
+        margin-top: 100px;
+        margin-bottom: 30px;
+        color: #FFF24A;
+}
+
+.no1 {
+        width: 25px;
+        position: relative;
+        left: 15px;
+        top: -30px;
+        transform: rotate(-30deg);
+        -ms-transform: rotate(-30deg);
+        /* IE 9 */
+        -moz-transform: rotate(-30deg);
+        /* Firefox */
+        -webkit-transform: rotate(-30deg);
+        /* Safari 和 Chrome */
+        -o-transform: rotate(-30deg);
+}
+
+.star-icon {
+        width: 30px;
+        height: 30px;
+        border-radius: 15px;
+}
+
+.star {
+        z-index: 100;
+        /* float: left; */
+        position: relative;
+        margin-left: 30%;
+        top: 48px;
+        left: -120px;
+}
+
+.chart-text {
+	color: #FFFFFF;
+}
+
+/* 90 */
+.text-80 {
+        color:#FFF24A;
+}
+
+/* 90男 */
+
+.tittle90 {
+        margin-top: 100px;
+        margin-bottom: 30px;
+        color: #B63253;
+}
+
+
+.text-90 {
+        color: #B63253;
+}
+
+/* 00 */
+.tittle00 {
+        margin-top: 100px;
+        margin-bottom: 30px;
+        color: #15D9AA;
+}
+
+
+.text-00 {
+        color: #15D9AA;
+}
