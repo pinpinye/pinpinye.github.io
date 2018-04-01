@@ -12,7 +12,7 @@ html {
 }
 
 body {
-    background-color: #F5F6F9;
+    /* background-color: #F5F6F9; */
 }
 
 a {
@@ -126,7 +126,7 @@ header {
     background: url(/img/1.jpg) no-repeat;
     background-position: 50% 50%;
     background-size: cover;
-    padding-top: 14rem;
+    padding-top: 15rem;
 }
 
 .banner-text {
@@ -144,7 +144,7 @@ header {
 
 .intro {
     width: 100%;
-    height: 150px;
+    /* height: 150px; */
     background-color: #ffffff;
     color: #FFFFFF;
 }
@@ -155,7 +155,7 @@ header {
 
 .intro-wrap {
     width: 100%;
-    height: 150px;
+    /* height: 150px; */
     background-color: #ffffff;
     color: #999999;
     margin: 0 auto;
