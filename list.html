@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="zh">
+
 <head>
     <title> BlinkD </title>
     <meta charset="UTF-8">
@@ -9,12 +10,13 @@
     <link rel="stylesheet" href="/css/bootstrap.min.css" type="text/css" />
         <link rel="stylesheet" type="text/css" href="/css/main.css" />
     <link rel="shortcut icon" href="/img/favicon.ico" type="image/png">
-    <script src="/js/jquery-3.1.1.min.js"></script>
-    <script src="/js/bootstrap.min.js"></script>
-    <script src="/js/index.js"></script>
+    <script src="/javascripts/jquery-3.1.1.min.js"></script>
+    <script src="/javascripts/bootstrap.min.js"></script>
+    <script src="/javascripts/index.js"></script>
 </head>
+
 <body>
-	<header>
+    <header>
         <nav class="navbar navbar-fixed-top">
             <div class="container-fluid">
                 <div class="navbar-header">
@@ -31,48 +33,45 @@
                 <div id="navbar" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav navbar-right">
                         <li><a class="nav-txt" href="/">主页</a></li>
-                        <li><a class="nav-txt" href="/list.html">发现</a></li>
-                        <li><a class="nav-txt" href="/about.html">About me</a></li>
+                        <li><a class="nav-txt" href="/list">发现</a></li>
+                        <li><a class="nav-txt" href="/about">About me</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
-
-    <section>
-    	<div class="banner"></div>
+        <section>
+        <div class="filter-container">
+        <div class="filter-tittle">分类</div>
+        <div class="tag"><a href="#">全部</a></div>
+        <div class="tag"><a href="#">产品</a></div>
+        <div class="tag"><a href="#">设计</a></div>
+        <div class="tag"><a href="#">前端</a></div>
+        <div class="tag"><a href="#">其他</a></div>
+        </div>
     </section>
-    <section>
-    	<div class="intro">
-    	<div class="wrpper">
-    	<div class="intro-wrap">
-			<div class="photo"><img class="image1" src="/img/p3.png" alt=""></div>
-			<div class="text">“Hi!&nbsp;欢迎来到<b>BlinkD</b>!这是我设计开发的个人网站，在这里你可以看到我收集或纪录的一些开发和设计的知识和资源。”</div>
-			<div class="about"><a href="/about">ABOUT&nbsp;ME</a></div>
-    	</div></div>
-    </section>
-    <section>
-    	<div class="container">
-			<div class="tittle">
-				<div class="t-text">最近更新</div><span><img class="t-pic" src="/img/head.png"></span>
-			</div>
-			<div class="content">
-                <div class="post">
-                    <div class="p-tittle"><a href="/articles/<%= article.id %>">掘金主页</a></div>
-                    <div class="p-time"><span class="p-day"></span><span></span></div>
-                    <div class="p-content"><a href="/articles/<%= article.id %>"><p>
-                    </p></a></div>
+ <section>
+        <div class="container  list-content">
+            <div class="tittle">
+                <div class="t-text list-tittle">内容列表</div><span><img class="t-pic" src="/img/head.png"></span>
+            </div>
+            <div class="content">
+            <div class="post no-article">还没有相关内容哦～</div>
+            <% articles.forEach(function(article) { %>
+                <div class="post post-wrapper">
+                    <div class="p-tittle"><a href="/articles/<%= article.id %>"><%= article.tittle %></a></div>
+                    <div class="p-time"><span class="p-day"><%= article.day %></span><span>前</span></div>
+                    <div class="p-content"><a href="/articles/<%= article.id %>"><p><%= article.summary %></p></a></div>
                 </div>
              <% }); %>
-			</div>
-			<div class="more"><a href="/list">查看更多</a></div>
-    	</div>
+            </div>
+        </div>
     </section>
- <footer>
+     <footer>
     <div class="foot-wrap">
-    	<div class="copy">Copyright ©2016 BlinkD All Rights Reserved</div>
-    	<div class="by">Powered by aliyun</div>
-    	</div>
+        <div class="copy">Copyright ©2016 BlinkD All Rights Reserved</div>
+        <div class="by">Powered by aliyun</div>
+        </div>
     </footer>
 </body>
 
