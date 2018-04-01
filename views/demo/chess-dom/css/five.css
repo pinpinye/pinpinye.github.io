@@ -1,0 +1,89 @@
+@charset "utf-8";
+html {
+    font-family: Helvetica, Microsoft yahei, Arial;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.header {
+    height: 100px;
+}
+
+.button {
+    position: relative;
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 25px;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #000000;
+}
+
+.button a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.button:hover {
+    background-color: #000000;
+}
+
+.button a:hover {
+    color: #FFFFFF;
+}
+
+#myDiv {
+    z-index: 1;
+    background-color: #FDCCB3;
+    margin: auto;
+    width: 620px;
+    height: 620px;
+}
+
+#circle-container {
+    /* margin-left: 10px; */
+    position: relative;
+    top: -555px;
+    left: -5px;
+    margin: auto;
+    width: 600px;
+    height: 600px;
+    z-index: 3;
+}
+
+#circle-container div {
+    /* visibility: hidden; */
+    opacity: 0;
+    margin-left: 10px;
+    margin-top: 10px;
+    z-index: 10;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    float: left;
+    background-color: #000000;
+    /* margin-left: 11.33333333px; */
+}
+
+#child-container {
+    position: relative;
+    margin: auto;
+    width: 560px;
+    height: 560px;
+    z-index: 2;
+    background-color: #FDCCB3;
+    border: 1px solid #000000;
+    top: 30px;
+}
+
+#child-container div {
+    width: 38px;
+    height: 38px;
+    border: 1px solid #000000;
+    float: left;
+}
