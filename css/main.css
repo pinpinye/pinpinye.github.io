@@ -134,8 +134,11 @@ header {
     width: 50%;
     height: 8rem;
     background-color: rgba(255,255,255,.3);
-    font-size: 3.5rem;
+    font-size: 3rem;
     color: #ffffff;
+}
+.banner .g-text {
+    font-size: 1rem;
 }
 /**********************介绍********************/
 
@@ -247,7 +250,7 @@ header {
 }
 
 .tittle .t-pic {
-    width: 1.3rem;
+    width: 1.1rem;
 }
 
 .post {
