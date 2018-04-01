@@ -1,0 +1,65 @@
+@charset "utf-8";
+html {
+    font-family: Helvetica, Microsoft yahei, Arial;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.header {
+    height: 100px;
+}
+
+.button {
+    position: relative;
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 25px;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #000000;
+}
+
+.button a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.button:hover {
+    background-color: #000000;
+}
+
+.button a:hover {
+    color: #FFFFFF;
+}
+
+#myCanvas {
+    background: #FDCCB3;
+    margin: auto;
+    /* transform: scale(0.5); */
+    /* zoom: 0.5; */
+    /*     -webkit-zoom: 0.5;
+    -ms-zoom: 0.5; */
+    /*     transform: scale(.5);
+    transform-origin: 50% 0%;
+    -ms-transform: scale(.5);
+    /* IE 9 */
+    /* -ms-transform-origin: 50% 0%; */
+    /* IE 9 */
+    /* -webkit-transform: scale(.5); */
+    /* Safari 和 Chrome */
+    /* -webkit-transform-origin: 50% 0%; */
+    /* Safari 和 Chrome */
+    /* -moz-transform: scale(.5); */
+    /* Firefox */
+    /* -moz-transform-origin: 50% 0%; */
+    /* Firefox */
+    /* -o-transform: scale(.5); */
+    /* Opera */
+    /* -o-transform-origin: 50% 0%; */
+    /* Opera */
+}
