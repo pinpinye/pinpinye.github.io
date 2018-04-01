@@ -24,13 +24,13 @@
 /************************导航栏active状态*************************/
 $(function() {
     // 获取路径
-    var path = window.location.pathname;
+    // var path = window.location.pathname;
     // 匹配
-    $('.navbar-nav li a').filter(function() {
-            return $(this).attr('href') == path;
-        })
-        // 设置字体颜色
-        .css("color", "black");
+    // $('.navbar-nav li a').filter(function() {
+    //         return $(this).attr('href') == path;
+    //     })
+    //     // 设置字体颜色
+    //     .css("color", "black");
 
 });
 
