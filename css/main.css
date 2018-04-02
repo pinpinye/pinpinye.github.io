@@ -40,6 +40,10 @@ p {
     width: -moz-fill-available;
     width: -moz-available;    /* FireFox目前这个生效 */
     width: fill-available;
+    height: -webkit-fill-available;
+    height: -moz-fill-available;
+    height: -moz-available;    /* FireFox目前这个生效 */
+    height: fill-available;
     /* height: 100%; */
     background: url(/img/3.jpg) no-repeat center;
     /* background-position: 50% 50%; */
