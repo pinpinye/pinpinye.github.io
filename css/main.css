@@ -139,8 +139,8 @@ header {
     height: 23rem;
 /*     background: url(/img/1.jpg) no-repeat;
     background-position: 50% 50%;
-    background-size: cover;
-    padding-top: 15rem; */
+    background-size: cover; */
+    padding-top: 20rem;
 }
 
 .banner-text {
@@ -342,16 +342,20 @@ header {
 footer {
     width: 100%;
     height: 5rem;
+
     /* background: #ffffff; */
     font-family: FZLTXHK--GBK1-0;
 }
 
 footer .foot-wrap {
+    position: fixed;
+    bottom: 0;
     width: 100%;
     max-width: 960px;
     height: 5rem;
     margin: 0 auto;
-    overflow: hidden;
+
+    /* overflow: hidden; */
 }
 
 footer .by,
