@@ -150,16 +150,19 @@ header {
 .text-wrapper {
     padding-top: 13rem;
     margin: 0 auto;
-    width: 30%;
+    width: 40%;
     height: 8rem;
     font-size:1rem;
     color: #ffffff;
+    text-align: right;
 }
 .banner .banner-text {
+    width: 20%;
+    display: block;
     background-color: rgba(255,255,255,.3);
     margin-top: .5rem;
 }
-.banner .banner-text:hover {
+.banner a:hover {
     background-color: rgb(255,255,255);
     margin-top: .5rem;
 }
