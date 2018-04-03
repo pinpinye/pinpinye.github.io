@@ -106,12 +106,12 @@ header {
 
 #navbar ul li a:hover {
     background-color: transparent !important;
-    color: rgba(0, 0, 0, 0.44);
+    color: #ffffff;
 }
 
 .navbar-right a {
     font-family: PingFangSC-Light;
-    color: #ffffff;
+    color: #999999;
     font-size: 1rem;
 }
 
@@ -119,7 +119,7 @@ header {
 /*汉堡包按钮颜色*/
 
 .icon-bar {
-    background-color: #ffffff;
+    background-color: #999999;
 }
 
 
@@ -137,7 +137,6 @@ header {
     /* overflow: hidden; */
     width: 100%;
     height: 30rem;
-    top: 100px;
     z-index: -1;
 /*     background: url(/img/1.jpg) no-repeat;
     background-position: 50% 50%;
