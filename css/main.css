@@ -133,7 +133,7 @@ header {
 /**********************banner********************/
 
 .banner {
-    /* position: relative; */
+    position: relative;
     /* overflow: hidden; */
     width: 100%;
     height: 30rem;
@@ -143,14 +143,16 @@ header {
     /* padding-top: 10rem; */
 }
 
-.banner-text {
+.text-wrapper {
     position: absolute;
     margin: 0 auto;
     width: 50%;
     height: 8rem;
-    background-color: rgba(255,255,255,.3);
     font-size: 3rem;
     color: #ffffff;
+}
+.banner .banner-text {
+background-color: rgba(255,255,255,.3);
 }
 .banner .g-text {
     font-size: 1rem;
@@ -159,6 +161,7 @@ header {
 #canvas {
     width: 100%;
     height: 100%;
+    position: relative;
     /* padding-left: 50%; */
 }
 /**********************介绍***************.........*****/
