@@ -342,7 +342,9 @@ header {
     -webkit-box-orient: vertical;
 }
 
-
+.p-title a {
+    color: #000;
+}
 /*查看更多*/
 
 .more {
