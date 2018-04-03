@@ -148,6 +148,7 @@ header {
 .text-wrapper {
     padding-top: 13rem;
     margin: 0 auto;
+    margin-top: .5rem;
     width: 30%;
     height: 8rem;
     font-size:1rem;
