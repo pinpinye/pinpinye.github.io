@@ -161,7 +161,7 @@ header {
     background-color: rgba(255,255,255,.3);
     margin-top: .5rem;
 }
-.banner .banner-text a{
+.banner-text a{
     color: #ffffff;
 }
 .banner a:hover {
