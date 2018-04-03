@@ -148,19 +148,21 @@ header {
 }
 
 .text-wrapper {
-    padding-top: 13rem;
+    padding-top: 12rem;
+    padding-left: 25%;
     margin: 0 auto;
     width: 40%;
-    height: 8rem;
     font-size:1rem;
     color: #ffffff;
-    text-align: right;
+    z-index: 10;
 }
 .banner .banner-text {
-    width: 20%;
     display: block;
     background-color: rgba(255,255,255,.3);
     margin-top: .5rem;
+}
+.banner .banner-text a{
+    color: #ffffff;
 }
 .banner a:hover {
     background-color: rgb(255,255,255);
