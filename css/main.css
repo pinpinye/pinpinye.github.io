@@ -58,10 +58,10 @@ header {
     height: 3rem;
     min-height: 50px;
     max-height: 60px;
-    background-color: rgba(255,255,255,0.1);
 }
 
 .navbar {
+    background-color: rgba(255,255,255,0.3);
     width: 100%;
     max-height: 60px;
     background: transparent;
@@ -148,14 +148,18 @@ header {
 .text-wrapper {
     padding-top: 13rem;
     margin: 0 auto;
-    margin-top: .5rem;
     width: 30%;
     height: 8rem;
     font-size:1rem;
     color: #ffffff;
 }
 .banner .banner-text {
-background-color: rgba(255,255,255,.3);
+    background-color: rgba(255,255,255,.3);
+    margin-top: .5rem;
+}
+.banner .banner-text:hover {
+    background-color: rgb(255,255,255);
+    margin-top: .5rem;
 }
 .banner .g-text {
     font-size: 1rem;
@@ -286,7 +290,7 @@ background-color: rgba(255,255,255,.3);
 
 .post {
     margin: 30px auto;
-    padding: 2rem;
+    padding: 1rem;
     background: #FFFFFF;
     border-radius: 10px;
     width: 90%;
@@ -297,7 +301,7 @@ background-color: rgba(255,255,255,.3);
 .post .p-tittle {
     display: inline;
     margin-top: 20px;
-    font-size: .7rem;
+    font-size: .8rem;
     font-weight: bold;
     color: #999999;
 }
@@ -311,8 +315,8 @@ background-color: rgba(255,255,255,.3);
 
 .post .p-content {
     margin-top: 20px;
-    font-size: .8rem;
-    height: 5.4rem;
+    font-size: .7rem;
+    /* height: 5.4rem; */
     color: #999999;
     letter-spacing: 1.2px;
     line-height: 1.8;
@@ -450,7 +454,7 @@ footer .my-email {
 /*列表＊＊＊＊＊＊＊＊＊*/
 
 .list-content {
-    margin-top: 1.5rem !important;
+    /* margin-top: 1.5rem !important; */
 }
 
 .list-tittle {
