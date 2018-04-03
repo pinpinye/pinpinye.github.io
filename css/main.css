@@ -13,7 +13,7 @@ html {
 }
 
 body {
-    /* background-color: #F5F6F9; */
+    background-color: #F5F6F9;
 }
 
 
@@ -56,6 +56,7 @@ p {
 header {
     position: fixed;
     top: 0;
+    z-index: 10;
     width: 100%;
     height: 3rem;
     min-height: 50px;
@@ -139,7 +140,7 @@ header {
     /* overflow: hidden; */
     width: 100%;
     height: 30rem;
-    z-index: -1;
+    /* z-index: -1; */
 /*     background: url(/img/1.jpg) no-repeat;
     background-position: 50% 50%;
     background-size: cover; */
@@ -397,6 +398,8 @@ footer .my-email {
 /**********************筛选********************/
 .list-bg {
     color: #F5F6F9;
+    width: 100%;
+    height: 100%;
  }
 
 .filter-container {
