@@ -262,6 +262,7 @@ background-color: rgba(255,255,255,.3);
 /**********************内容区********************/
 
 .container {
+    background-color: #F5F6F9;
     margin-top: 3rem;
     width: 100%;
     max-width: 960px;
@@ -274,7 +275,7 @@ background-color: rgba(255,255,255,.3);
 
 .tittle .t-text {
     float: left;
-    font-size: 1.3rem;
+    font-size: .8rem;
     font-weight: bold;
     color: #4A4A4A;
 }
@@ -296,21 +297,21 @@ background-color: rgba(255,255,255,.3);
 .post .p-tittle {
     display: inline;
     margin-top: 20px;
-    font-size: 1.2rem;
+    font-size: .7rem;
     font-weight: bold;
     color: #999999;
 }
 
 .post .p-time {
     display: inline;
-    font-size: .8rem;
+    font-size: .7rem;
     color: #9B9B9B;
     margin-left: 1rem;
 }
 
 .post .p-content {
     margin-top: 20px;
-    font-size: 1rem;
+    font-size: .8rem;
     height: 5.4rem;
     color: #999999;
     letter-spacing: 1.2px;
