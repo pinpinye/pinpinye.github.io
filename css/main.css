@@ -137,6 +137,8 @@ header {
     /* overflow: hidden; */
     width: 100%;
     height: 30rem;
+    top: 100px;
+    z-index: -1;
 /*     background: url(/img/1.jpg) no-repeat;
     background-position: 50% 50%;
     background-size: cover; */
@@ -144,11 +146,11 @@ header {
 }
 
 .text-wrapper {
-    position: absolute;
+    padding-top: 13rem;
     margin: 0 auto;
-    width: 50%;
+    width: 30%;
     height: 8rem;
-    font-size: 3rem;
+    font-size:1rem;
     color: #ffffff;
 }
 .banner .banner-text {
@@ -386,6 +388,9 @@ footer .my-email {
 
 
 /**********************筛选********************/
+.list-bg {
+    color: #F5F6F9;
+ }
 
 .filter-container {
     width: 100%;
@@ -396,7 +401,7 @@ footer .my-email {
 
 .filter-container .filter-tittle {
     margin-left: 5.20833333%;
-    font-size: 1rem;
+    font-size: .8rem;
     font-weight: bold;
     color: #999999;
     display: inline-block;
@@ -409,7 +414,7 @@ footer .my-email {
     line-height: 1.5rem;
     border-radius: 25px;
     text-align: center;
-    font-size: 0.8rem;
+    font-size: 0.6rem;
     background-color: #50E3C2;
 }
 
@@ -447,7 +452,7 @@ footer .my-email {
 }
 
 .list-tittle {
-    font-size: 1rem !important;
+    font-size: .8rem !important;
 }
 
 .no-article {
@@ -758,7 +763,7 @@ footer .my-email {
 }
 
 .comment-container section h3 {
-    font-size: .9rem;
+    font-size: .7rem;
     font-family: PingFangSC-Light !important;
 }
 
